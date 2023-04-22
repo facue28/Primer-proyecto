@@ -1,0 +1,8 @@
+
+#fotoFondo { 
+background-image: url(../images/fotoFondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom center;
+}
+    
