@@ -1,8 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration:none;
+}
+
+html {
+    font-size: 62.5%; /* =10px */
+  }
+
+body{
+    background-image: url(../images/fotoFondoWeb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 h1{
-    color: red;
+    font-size: 7rem;
+    text-align: center;
+    color:#23022E;
+    font-weight:bold ;
 }
 
-ul, ol {
-    list-style: none;
+h2 {
+    font-size:4rem;
+    text-align: center;
+    color:#23022E;
+    font-weight: bold;
+
 }
+
+h3{
+    font-size: 3rem;
+
+}
+
+.header {
+    border: 2px solid black;
+    height: 150px;
+    
+}
+ .menuConteiner {
+    margin-top: 25px;
+    text-align: center;
+    
+ }
+
+
+ 
+ .menuConteiner li {
+    display: inline;
+    font-size: 2.5rem;
+    padding: 20px;
+    
+ }
+ 
+
+ 
+
+/* header li a:hover {
+    background-color: #829CBC;
+    color: #23022E;
+}  */
+
+.videoConteiner {
+    display: flex;
+    justify-content:center;
+}
+
+.videoConteinerIndex {
+    width: 1086px;
+    height:610px;
+    padding: 2px;
+    margin-top: 4rem;
+    margin-bottom: 4rem ;
+    border: 2px solid black;
+}
+
+.videoIndex {
+    width:1077px;
+    height: 600px;
+    padding: 2px;
+    border: 2px solid red;
+    
+}
+
+.noticiasConteiner {
+    margin-top: 30px;
+    height: 200px;
+    border:2px solid black ;
+    text-align: center;
+}
+
+.noticias li{
+    font-size: 1.5rem;
+    margin-top: 1px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+
+.footerConteiner{
+    border: 2px solid black;
+    margin-top: 10px;
+    justify-content: start;
+    display: flex;
+    height: auto;
+
+}
+
+.ulFooterConteiner{
+    border: 2px solid black;
+    display: flex;
+    height: 6rem;
+    width: 22%;
+    
+}
+
+.ulFooterConteiner li {
+    display: inline;
+}
+
+.emailFooter{
+    position: relative;
+    left: 100rem;
+    padding-bottom: 2rem;
+    
+}
+
+.imgFooter{
+    height: 90% ;
+    width: auto;
+    text-align: center;
+    margin-top: 0,2rem;
+    margin-bottom: 0,2px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

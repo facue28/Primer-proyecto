@@ -54,5 +54,15 @@ header{
 }
 
 body{
-    background-color: blue;
+    background-color:white;
+}
+
+.class1 {
+    color: blueviolet;
+}
+
+.class1 .class2{
+    color: green;
+}
+
 }
