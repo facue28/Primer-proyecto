@@ -8,7 +8,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
     <link rel="stylesheet" href="./css/estilo.css">
     <title>Blog de comida vegana</title>
 </head>
@@ -19,9 +23,9 @@
         <h1>Blog de comida vegana
         </h1>
         <!-- NAV -->
-        <nav>
+        <nav class="nav-menu">
             <ul class="menuConteiner">
-                <li> <a href="./pages/sobre-el-blog.html">Sobre el Blog </a></li>
+                <li> <a href="./pages/sobre-el-blog.html">Sobre el Blog</a></li>
                 <li> <a href="./pages/Restauranes.html">Restauranes</a></li>
                 <li> <a href="./pages/recetas.html">Recetas</a></li>
                 <li> <a href="./pages/contacto.html">Contacto</a></li>
@@ -32,7 +36,7 @@
     <main>
         <section class="videoConteiner">
             <div class="videoConteinerIndex">
-                <video class="videoIndex" controls autoplay src="./videos/videoIndex.mp4"
+                <video class="videoIndex" controls autoplay loop src="./videos/videoIndex.mp4"
                     alt="Video de gente acomodandose en una mesa "> </video>
             </div>
         </section>
@@ -44,14 +48,14 @@
                 <ul class="noticias">
                     <li> <a
                             href="https://www.vegaffinity.com/comunidad/articulo/revolucion-foodie-comer-sano-no-es-para-nada-aburrido--a248">
-                            Revolución Foodie, comer sano no es para nada aburrido</a></li>
+                            <h3>Revolución Foodie, comer sano no es para nada aburrido</h3></a></li>
 
                     <li><a
                             href="https://www.vegaffinity.com/comunidad/articulo/deporte-y-veganismo-desventaja-deportiva--a87">
-                            Deporte y veganismo ¿desventajadeportiva?</a></li>
+                            <h3>Deporte y veganismo ¿desventajadeportiva?</h3</a></li>
 
-                    <li><a href="https://foodispower.org/es/alternativas-alimentos/veganismo/"> ¿Qué Significa
-                            “Vegano”?</a></li>
+                    <li><a href="https://foodispower.org/es/alternativas-alimentos/veganismo/"> <h3>¿Qué Significa
+                            “Vegano”?</h3></a></li>
                     </a>
                     </li>
                 </ul>
@@ -61,30 +65,27 @@
 
 
     <!-- FOOTER -->
-    <footer class="footerConteiner">
+    <footer id="footer">       
+        <div class="footer-container">
+            <div class="footer-ul">
+                <ul class="ul-redes">
+                    <li><a class="icon-footer" href="#"><i class="fa-solid fa-arrow-up" style="color:  #23022E;"></i></a></li>
+                    <li><a class="icon-footer" href="#"><i class="fa-brands fa-facebook" style="color:  #23022E;"></i></a></li>
 
-        
-            <div class="ulFooterConteiner">
-                <ul>
-                    <li><a href="#header"><img class="imgFooter" src="./images/imgFooter/irArriba.png" alt="logo de Ir Arriba"></a></li>
+                    <li><a class="icon-footer" href="#"><i class="fa-brands fa-instagram" style="color:  #23022E;"></i></a></li>
+                    <li><a class="icon-footer" href="#"><i class="fa-brands fa-whatsapp" style="color:  #23022E;"></i></a></li>
 
-                    <li><a href="#"><img class="imgFooter" src="./images/imgFooter/facebook.png" alt="logo de Facebook">
-                        </a> </li>
-
-                    <li><a href="#"><img img class="imgFooter" src="./images/imgFooter/instagram.png"
-                                alt="logo de Instagram"> </a> </li>
-
-                    <li> <a href=#> <img img class="imgFooter" src="./images/imgFooter/whatsapp.png"
-                                alt="logo de Whatsapp"> </a> </li>
-
-                    <li> <a href="./pages/contacto.html"><img img class="imgFooter"
-                                src="./images/imgFooter/contacto.png" alt=""> </a></li>
+                    <li><a class="icon-footer" href="#"><i class="fa-solid fa-envelope" style="color:  #23022E;"></i></i></a></li>
                 </ul>
-                <div class="emailFooter">
-                    <label for="email">Quieres recibir nuevas noticias?</label><br>
-                    <input type="email" name="" id="email">
-                </div>
             </div>
+            <div class="footer-email">
+                <div class="footer-div">
+                    <label for="email">Quieres recibir nuevas noticias?</label><br>
+                    <input placeholder="email" type="email" name="" id="email">
+                </div>
+
+            </div>
+        </div>
     </footer>
 </body>
 

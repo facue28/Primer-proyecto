@@ -7,21 +7,28 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+     <!-- fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+     <!-- icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- css -->
+     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Contacto</title>
 </head>
-<body>
-    <header id="header">
-        <h1>Contacto</h1>
-        <nav>
-            <ul>
+<body id="fotoFondo">
+    <header class="header">
+
+        <h1>Blog de comida vegana
+        </h1>
+        <!-- NAV -->
+        <nav class="nav-menu">
+            <ul class="menuConteiner">
                 <li><a href="../index.html">Inicio</a></li>
-                <li> <a href="./sobre-el-blog.html">Sobre La Pagina</a></li>
-                <li> <a href="./Restauranes.html">Restauranes</a></li>
-                <li> <a href="./recetas.html">Recetas</a></li>
-                
-                
+                <li> <a href="../pages/sobre-el-blog.html">Sobre el Blog </a></li>
+                <li> <a href="../pages/Restauranes.html">Restauranes</a></li>
+                <li> <a href="../pages/recetas.html">Recetas</a></li>
+                <li> <a href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -59,16 +66,27 @@
             
     </main>
 
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="#header">Ir arriba</a></li>
-                <li><a href="#"><img src="../images/imgFooter/facebook.png" alt="logo de Facebook"> </a> </li>
-                <li><a href="#"><img src="../images/imgFooter/instagram.png" alt="logo de Instagram"> </a> </li>
-                <li> <a href=# > <img src="../images/imgFooter/whatsapp.png" alt="logo de Whatsapp"> </a> </li>
-                <li> <a href="../pages/contacto.html"><img src="../images/imgFooter/contacto.png" alt=""> </a></li>
-            </ul>
-        </nav>
+    <footer id="footer">       
+        <div class="footer-container">
+            <div class="footer-ul">
+                <ul class="ul-redes">
+                    <li><a class="icon-footer" href="#"><i class="fa-solid fa-arrow-up" style="color:  #23022E;"></i></a></li>
+                    <li><a class="icon-footer" href="#"><i class="fa-brands fa-facebook" style="color:  #23022E;"></i></a></li>
+
+                    <li><a class="icon-footer" href="#"><i class="fa-brands fa-instagram" style="color:  #23022E;"></i></a></li>
+                    <li><a class="icon-footer" href="#"><i class="fa-brands fa-whatsapp" style="color:  #23022E;"></i></a></li>
+
+                    <li><a class="icon-footer" href="#"><i class="fa-solid fa-envelope" style="color:  #23022E;"></i></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-email">
+                <div class="footer-div">
+                    <label for="email">Quieres recibir nuevas noticias?</label><br>
+                    <input placeholder="email" type="email" name="" id="email">
+                </div>
+
+            </div>
+        </div>
     </footer>
     
 </body>
