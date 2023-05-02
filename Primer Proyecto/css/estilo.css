@@ -50,7 +50,9 @@ h3{
     text-align: center;
     
  }
-
+.menuConteiner a {
+    color:  #2E294E;
+}
 
  
  .menuConteiner li {
@@ -65,7 +67,6 @@ h3{
 
 header li a:hover {
     background-color: #829CBC;
-    color: #23022E;
 }  
 
 .videoConteiner {
